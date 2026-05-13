@@ -1,0 +1,55 @@
+{
+  "id": "niteroi-sao-domingos",
+  "type": "neighborhood",
+  "name": "São Domingos",
+  "city": "niteroi",
+  "city_name": "Niterói",
+  "state": "rj",
+  "region": "zona-sul",
+  "official_status": "bairro_oficial",
+  "description": "Bairro histórico e tradicional da Zona Sul de Niterói, banhado pela Baía de Guanabara, com forte herança cultural e arquitetônica preservada. É onde nasceu Niterói: foi aqui que Araribóia, cacique tupinambá, fundou a cidade em 1573. Combina patrimônio histórico, vistas privilegiadas e ambiente residencial valorizado. Concentra alguns dos imóveis e monumentos mais notáveis da cidade.",
+  "boundaries": {
+    "all": ["niteroi-centro", "niteroi-inga", "niteroi-gragoata"]
+  },
+  "geographic_features": ["Baía de Guanabara", "Vista panorâmica para o Rio de Janeiro"],
+  "landmarks": [
+    "Solar do Jambeiro (monumento histórico, séc. XIX)",
+    "Casa de Eça de Queirós (onde o escritor viveu e foi cônsul)",
+    "Igreja de São Domingos (uma das mais antigas de Niterói)",
+    "Museu do Ingá (próximo)",
+    "Praça do Rink",
+    "Marco fundacional de Niterói por Araribóia"
+  ],
+  "main_streets": [
+    "Avenida Quintino Bocaiúva",
+    "Rua Doutor March",
+    "Rua São Domingos",
+    "Rua Tiradentes"
+  ],
+  "transportation": {
+    "ferry": "Próximo à Estação das Barcas (Centro)",
+    "bus": "Linhas para Centro, Icaraí e demais bairros da Zona Sul"
+  },
+  "market_profile": {
+    "price_tier": "medio",
+    "price_range_brl": {"min": 400000, "max": 1500000},
+    "primary_property_types": ["apartamento_medio", "casa_historica", "apartamento_medio_alto", "cobertura"],
+    "buyer_profile": "Apreciadores de patrimônio histórico, famílias buscando tradição e localização privilegiada, profissionais que valorizam proximidade ao Centro, investidores em imóveis históricos",
+    "investment_keywords": ["histórico", "tradição", "patrimônio", "Centro próximo", "vista da baía", "Solar do Jambeiro"]
+  },
+  "differentials": [
+    "Berço histórico de Niterói (fundação por Araribóia em 1573)",
+    "Patrimônio arquitetônico preservado (Solar do Jambeiro, Casa Eça de Queirós)",
+    "Vista para a Baía de Guanabara e Rio de Janeiro",
+    "Proximidade imediata ao Centro mantendo caráter residencial",
+    "Museu do Ingá próximo",
+    "Imóveis históricos para investidores especializados",
+    "Forte identidade cultural"
+  ],
+  "history_summary": "São Domingos é o berço fundacional de Niterói. Em 22 de novembro de 1573, o cacique tupinambá Araribóia fundou aqui a 'Banda d'Além', primeira ocupação portuguesa na margem leste da Baía de Guanabara, dando origem à cidade. O bairro preserva alguns dos mais importantes monumentos arquitetônicos do período imperial brasileiro, como o Solar do Jambeiro (residência aristocrática do séc. XIX) e a Casa onde Eça de Queirós viveu enquanto exerceu o cargo de cônsul de Portugal no Brasil entre 1888 e 1891.",
+  "sources": [
+    "Fundação de Arte de Niterói (FAN) - Prefeitura Municipal de Niterói",
+    "IPHAN - patrimônio histórico de São Domingos",
+    "Plano Diretor de Niterói (Lei nº 3.385/2019)"
+  ]
+}

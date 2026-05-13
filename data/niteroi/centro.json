@@ -1,0 +1,64 @@
+{
+  "id": "niteroi-centro",
+  "type": "neighborhood",
+  "name": "Centro",
+  "city": "niteroi",
+  "city_name": "Niterói",
+  "state": "rj",
+  "region": "centro",
+  "official_status": "bairro_oficial",
+  "description": "Centro comercial, financeiro e administrativo de Niterói. Sede das principais repartições públicas, do comércio diversificado e da travessia marítima para o Rio de Janeiro pela Estação das Barcas. É um dos bairros mais antigos da cidade, com origem no século XIX como Vila Real da Praia Grande, e concentra parte significativa do patrimônio histórico e cultural niteroiense.",
+  "boundaries": {
+    "all": ["niteroi-sao-lourenco", "niteroi-ponta-dareia", "niteroi-fatima", "niteroi-inga", "niteroi-sao-domingos", "niteroi-icarai"]
+  },
+  "geographic_features": ["Baía de Guanabara"],
+  "landmarks": [
+    "Plaza Shopping",
+    "Niterói Shopping",
+    "Bay Market Shopping",
+    "Estação das Barcas (Praça Arariboia)",
+    "Caminho Niemeyer",
+    "Teatro Municipal de Niterói",
+    "Paço Municipal",
+    "Palácio Arariboia",
+    "Catedral de São João Batista",
+    "Mercado Municipal",
+    "Hospital Antônio Pedro",
+    "Câmara Municipal de Niterói"
+  ],
+  "main_streets": [
+    "Avenida Visconde do Rio Branco",
+    "Avenida Ernani do Amaral Peixoto",
+    "Rua da Conceição",
+    "Rua Visconde de Sepetiba",
+    "Avenida Marquês do Paraná"
+  ],
+  "universities": [
+    "Universidade Federal Fluminense (UFF) - campus Centro",
+    "Universidade Salgado de Oliveira",
+    "Centro Universitário Plínio Leite"
+  ],
+  "transportation": {
+    "ferry": "Estação das Barcas Niterói (linha Niterói-Rio com travessia para Praça XV)",
+    "highways": ["Acesso direto à Ponte Rio-Niterói (BR-101)"],
+    "main_terminal": "Terminal Rodoviário João Goulart"
+  },
+  "market_profile": {
+    "price_tier": "medio",
+    "primary_property_types": ["apartamento_compacto", "apartamento_medio", "sala_comercial"],
+    "buyer_profile": "Profissionais que trabalham no Centro ou no Rio (via barcas), investidores buscando renda de aluguel, executivos que cruzam a baía diariamente",
+    "investment_keywords": ["renda passiva", "aluguel", "comercial", "barcas para o Rio"]
+  },
+  "differentials": [
+    "Integração total com o Rio de Janeiro via barcas e catamarã",
+    "Comércio amplo e diversificado",
+    "Vida cultural e noturna no Caminho Niemeyer",
+    "Vista da Baía de Guanabara",
+    "Concentração de serviços públicos e privados"
+  ],
+  "history_summary": "O Centro nasceu como Vila Real da Praia Grande em 1819, elevada à condição de Cidade de Nictheroy em 1834 ao tornar-se capital da Província do Rio de Janeiro. Foi planejado urbanisticamente no início do século XIX com cinco ruas paralelas ao mar e oito perpendiculares.",
+  "sources": [
+    "Fundação de Arte de Niterói (FAN) - Prefeitura Municipal de Niterói",
+    "Plano Diretor de Niterói (Lei nº 3.385/2019)"
+  ]
+}

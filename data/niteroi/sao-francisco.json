@@ -1,0 +1,51 @@
+{
+  "id": "niteroi-sao-francisco",
+  "type": "neighborhood",
+  "name": "São Francisco",
+  "city": "niteroi",
+  "city_name": "Niterói",
+  "state": "rj",
+  "region": "zona-sul",
+  "official_status": "bairro_oficial",
+  "description": "Bairro nobre litorâneo da Zona Sul de Niterói, situado na enseada de São Francisco. Caracteriza-se pelas águas calmas da Baía de Guanabara, ambiente predominantemente residencial e silencioso, e por uma vida noturna concentrada em bares e restaurantes na Avenida Quintino Bocaiúva. Compartilha orla com Charitas.",
+  "boundaries": {
+    "all": ["niteroi-charitas", "niteroi-icarai", "niteroi-santa-rosa"]
+  },
+  "geographic_features": ["Baía de Guanabara", "Enseada de São Francisco", "Praia de São Francisco"],
+  "beaches": [
+    {
+      "name": "Praia de São Francisco",
+      "type": "praia de baía",
+      "characteristics": "águas calmas"
+    }
+  ],
+  "landmarks": [
+    "Praia de São Francisco",
+    "Polo gastronômico da Avenida Quintino Bocaiúva"
+  ],
+  "main_streets": [
+    "Avenida Quintino Bocaiúva",
+    "Avenida Prefeito Sílvio Picanço",
+    "Rua Coronel Tamarindo"
+  ],
+  "transportation": {
+    "bus": "Linhas conectando Centro, Charitas e Região Oceânica"
+  },
+  "market_profile": {
+    "price_tier": "alto",
+    "primary_property_types": ["apartamento_alto_padrao", "cobertura", "casa", "apartamento_medio_alto"],
+    "buyer_profile": "Famílias, aposentados, executivos buscando tranquilidade litorânea com proximidade à orla de Icaraí",
+    "investment_keywords": ["orla calma", "residencial", "silencioso", "praia de baía"]
+  },
+  "differentials": [
+    "Praia de águas calmas, ideal para famílias",
+    "Mais residencial e silencioso que Icaraí",
+    "Vida noturna na Avenida Quintino Bocaiúva",
+    "Polo gastronômico em expansão",
+    "Vista privilegiada da Baía de Guanabara"
+  ],
+  "sources": [
+    "Fundação de Arte de Niterói (FAN) - Prefeitura Municipal de Niterói",
+    "Plano Diretor de Niterói (Lei nº 3.385/2019)"
+  ]
+}

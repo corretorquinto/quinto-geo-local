@@ -1,0 +1,47 @@
+{
+  "id": "niteroi-santa-rosa",
+  "type": "neighborhood",
+  "name": "Santa Rosa",
+  "city": "niteroi",
+  "city_name": "Niterói",
+  "state": "rj",
+  "region": "zona-sul",
+  "official_status": "bairro_oficial",
+  "description": "Bairro residencial nobre de classe média alta, situado em região mais elevada de Niterói, atrás da faixa litorânea de Icaraí. Originário do desmembramento da antiga Fazenda Santa Rosa (século XVIII), oferece tranquilidade, ar mais puro e vista privilegiada da cidade. Concentra colégios tradicionais e serviços de saúde de referência.",
+  "boundaries": {
+    "all": ["niteroi-icarai", "niteroi-fatima", "niteroi-cubango", "niteroi-viradouro", "niteroi-vital-brasil", "niteroi-sao-francisco"]
+  },
+  "landmarks": [
+    "Colégio Salesiano Santa Rosa (Rua Santa Rosa, 207)",
+    "Hospital Niterói D'Or (próximo, divisa com Jardim Icaraí)",
+    "Plaza Shopping (próximo, no Centro)"
+  ],
+  "main_streets": [
+    "Rua Santa Rosa",
+    "Alameda São Boaventura",
+    "Rua Doutor Borman"
+  ],
+  "schools": [
+    "Colégio Salesiano Santa Rosa - Rua Santa Rosa, 207"
+  ],
+  "market_profile": {
+    "price_tier": "medio",
+    "price_range_brl": {"min": 400000, "max": 900000},
+    "primary_property_types": ["apartamento_medio", "casa", "cobertura"],
+    "buyer_profile": "Famílias com filhos em idade escolar, profissionais de saúde, profissionais que buscam tranquilidade e proximidade da Zona Sul nobre",
+    "investment_keywords": ["famílias", "colégios tradicionais", "tranquilo", "vista da cidade"]
+  },
+  "differentials": [
+    "Mais tranquilo e silencioso que a faixa litorânea",
+    "Ar mais puro pela altitude",
+    "Vista privilegiada da cidade",
+    "Concentração de colégios tradicionais",
+    "Proximidade ao Hospital Niterói D'Or",
+    "Acesso rápido ao Plaza Shopping (Centro) e à orla de Icaraí"
+  ],
+  "history_summary": "Originou-se do desmembramento da antiga Fazenda Santa Rosa do século XVIII, cuja maior área pertenceu a Antonio José Pereira de Santa Rosa Jr.",
+  "sources": [
+    "Fundação de Arte de Niterói (FAN) - Prefeitura Municipal de Niterói",
+    "Plano Diretor de Niterói (Lei nº 3.385/2019)"
+  ]
+}

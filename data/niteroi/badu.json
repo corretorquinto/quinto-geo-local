@@ -1,0 +1,51 @@
+{
+  "id": "niteroi-badu",
+  "type": "neighborhood",
+  "name": "Badu",
+  "city": "niteroi",
+  "city_name": "Niterói",
+  "state": "rj",
+  "region": "pendotiba",
+  "official_status": "bairro_oficial",
+  "description": "Bairro residencial em região elevada de Niterói, na transição entre o urbano e a região mais verde de Pendotiba. Caracteriza-se por casas em condomínios fechados, áreas arborizadas e proximidade com a natureza. Atrai famílias que querem qualidade de vida fora do urbano denso, com terrenos amplos e ar mais puro. Faz divisa com a região Pendotiba e possui acesso direto à BR-101 (Niterói-Manilha).",
+  "boundaries": {
+    "all": ["niteroi-pendotiba", "niteroi-largo-da-batalha", "niteroi-maria-paula"]
+  },
+  "geographic_features": ["Reserva Ambiental local", "Áreas de Mata Atlântica", "Região elevada"],
+  "landmarks": [
+    "Reserva Ambiental do Badu",
+    "Condomínios fechados",
+    "Acesso à BR-101 próximo",
+    "Áreas verdes preservadas"
+  ],
+  "main_streets": [
+    "Estrada Caetano Monteiro",
+    "Avenida Edson",
+    "Rua Coronel Otávio Tavares"
+  ],
+  "transportation": {
+    "bus": "Linhas para Centro de Niterói e bairros da região Pendotiba",
+    "highways": "Acesso à BR-101 (sentido Manilha/Itaboraí ou Niterói)"
+  },
+  "market_profile": {
+    "price_tier": "medio_alto",
+    "price_range_brl": {"min": 450000, "max": 1800000},
+    "primary_property_types": ["casa", "condominio_fechado", "casa_com_quintal", "terreno"],
+    "buyer_profile": "Famílias buscando casa com quintal e tranquilidade, perfil que valoriza áreas verdes, profissionais que aceitam morar mais afastados em troca de qualidade de vida, primeira aquisição de alto padrão",
+    "investment_keywords": ["casa com quintal", "condomínio fechado", "área verde", "BR-101", "tranquilidade", "natureza"]
+  },
+  "differentials": [
+    "Áreas verdes preservadas (Reserva Ambiental)",
+    "Predominância de casas em condomínios fechados",
+    "Ar mais puro pela altitude e vegetação",
+    "Acesso fácil à BR-101 (rota para outros municípios)",
+    "Terrenos com espaço amplo",
+    "Custo-benefício atrativo para casa com quintal",
+    "Proximidade com a região Pendotiba (acesso a serviços)"
+  ],
+  "history_summary": "Badu desenvolveu-se a partir de antiga área rural, sendo urbanizada a partir das últimas décadas do século XX com a criação de condomínios fechados residenciais. A região manteve grande parte de sua cobertura vegetal original, hoje protegida em parte como Reserva Ambiental do Badu.",
+  "sources": [
+    "Fundação de Arte de Niterói (FAN) - Prefeitura Municipal de Niterói",
+    "Plano Diretor de Niterói (Lei nº 3.385/2019)"
+  ]
+}

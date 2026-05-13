@@ -1,0 +1,49 @@
+{
+  "id": "niteroi-jardim-icarai",
+  "type": "sub_neighborhood",
+  "name": "Jardim Icaraí",
+  "official_neighborhood": "niteroi-icarai",
+  "official_neighborhood_name": "Icaraí",
+  "city": "niteroi",
+  "city_name": "Niterói",
+  "state": "rj",
+  "region": "zona-sul",
+  "official_status": "sub_bairro",
+  "legal_note": "Jardim Icaraí não é bairro oficial pelo Plano Diretor de Niterói (Lei nº 3.385/2019). Tecnicamente é uma subdivisão do bairro de Icaraí, situada entre Icaraí e Santa Rosa. Em registros oficiais (CRECI, escritura, IPTU), os imóveis aparecem com endereço em Icaraí. O termo 'Jardim Icaraí' é amplamente reconhecido no mercado imobiliário e no uso popular.",
+  "description": "Sub-bairro valorizado da Zona Sul de Niterói, situado entre Icaraí e Santa Rosa. Surgiu como loteamento histórico no final do século XIX, entre as ruas da Constituição e da Independência. Caracteriza-se por prédios mais modernos, áreas arborizadas, ar mais puro que a faixa litorânea e proximidade a serviços de saúde e educação de alto padrão.",
+  "boundaries": {
+    "all": ["niteroi-icarai", "niteroi-santa-rosa"],
+    "context": "Localizado dentro do território oficial do bairro de Icaraí, na divisa com Santa Rosa"
+  },
+  "landmarks": [
+    "Hospital Niterói D'Or",
+    "Polo Gastronômico do Jardim Icaraí",
+    "Teatro Municipal Abel (próximo)",
+    "Campo de São Bento (próximo)"
+  ],
+  "main_streets": [
+    "Rua da Constituição",
+    "Rua da Independência",
+    "Rua Doutor Herotides de Oliveira"
+  ],
+  "market_profile": {
+    "price_tier": "medio_alto",
+    "primary_property_types": ["apartamento_medio_alto", "apartamento_alto_padrao", "cobertura"],
+    "buyer_profile": "Famílias que querem o pacote Icaraí em prédios mais novos, profissionais de saúde, executivos buscando tranquilidade próxima à orla",
+    "investment_keywords": ["prédios novos", "arborizado", "tranquilo", "perto do hospital"]
+  },
+  "differentials": [
+    "Prédios mais modernos que a faixa de Icaraí praia",
+    "Mais arborizado e silencioso",
+    "Polo gastronômico ativo",
+    "Proximidade ao Hospital Niterói D'Or",
+    "Acesso fácil ao Campo de São Bento e Teatro Abel",
+    "Toda a infraestrutura de Icaraí a poucos minutos a pé"
+  ],
+  "history_summary": "Loteamento concebido no final do século XIX entre as ruas da Constituição e da Independência. Nas últimas décadas tornou-se um polo gastronômico e área de novos empreendimentos imobiliários valorizados.",
+  "sources": [
+    "Fundação de Arte de Niterói (FAN) - Prefeitura Municipal de Niterói",
+    "TJ-RJ - decisão sobre Lei Municipal 1.967/2002 (PUR-PB)",
+    "Plano Diretor de Niterói (Lei nº 3.385/2019)"
+  ]
+}

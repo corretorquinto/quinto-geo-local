@@ -1,0 +1,51 @@
+{
+  "id": "niteroi-fonseca",
+  "type": "neighborhood",
+  "name": "Fonseca",
+  "city": "niteroi",
+  "city_name": "Niterói",
+  "state": "rj",
+  "region": "zona-norte",
+  "official_status": "bairro_oficial",
+  "description": "Um dos bairros mais populosos de Niterói, situado na zona norte da cidade. Caracteriza-se por comércio diversificado, forte presença de classe média trabalhadora e acesso estratégico tanto ao Centro de Niterói quanto à Ponte Rio-Niterói. Fonseca é bairro de tradição comercial, com a Avenida do Contorno como principal eixo. Atrai quem busca custo-benefício combinado a boa localização.",
+  "boundaries": {
+    "all": ["niteroi-barreto", "niteroi-centro", "niteroi-engenhoca"]
+  },
+  "landmarks": [
+    "Avenida do Contorno (eixo comercial principal)",
+    "Largo do Marrão",
+    "Comércio diversificado de rua",
+    "Igreja matriz local"
+  ],
+  "main_streets": [
+    "Avenida do Contorno",
+    "Rua Doutor March",
+    "Rua Doutor Borman",
+    "Estrada Caetano Monteiro"
+  ],
+  "transportation": {
+    "bus": "Centro de transportes — múltiplas linhas para Centro, Ponte Rio-Niterói e bairros vizinhos",
+    "highways": "Acesso fácil à Ponte Rio-Niterói via Avenida do Contorno"
+  },
+  "market_profile": {
+    "price_tier": "baixo_medio",
+    "price_range_brl": {"min": 180000, "max": 500000},
+    "primary_property_types": ["apartamento_compacto", "apartamento_medio", "casa", "imovel_comercial"],
+    "buyer_profile": "Classe média trabalhadora, comerciantes, famílias jovens, primeira aquisição, profissionais que trabalham no Centro ou no Rio",
+    "investment_keywords": ["custo-benefício", "Centro próximo", "comércio diversificado", "Ponte Rio-Niterói", "famílias", "trabalhadores"]
+  },
+  "differentials": [
+    "Comércio amplo e diversificado",
+    "Conexão fácil com Centro de Niterói",
+    "Acesso direto à Ponte Rio-Niterói",
+    "Opção mais acessível para quem trabalha em Niterói ou no Rio",
+    "Múltiplas linhas de ônibus convergindo",
+    "Custo de vida acessível",
+    "Boa oferta de imóveis comerciais"
+  ],
+  "history_summary": "Fonseca desenvolveu-se a partir de antiga área rural no início do século XX, urbanizando-se rapidamente como bairro de classe trabalhadora ao longo do século. A Avenida do Contorno consolidou-se como principal eixo comercial e viário, fazendo do bairro um polo de comércio popular na zona norte de Niterói.",
+  "sources": [
+    "Fundação de Arte de Niterói (FAN) - Prefeitura Municipal de Niterói",
+    "Plano Diretor de Niterói (Lei nº 3.385/2019)"
+  ]
+}

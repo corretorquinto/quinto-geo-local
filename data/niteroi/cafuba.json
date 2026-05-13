@@ -1,0 +1,50 @@
+{
+  "id": "niteroi-cafuba",
+  "type": "neighborhood",
+  "name": "Cafubá",
+  "city": "niteroi",
+  "city_name": "Niterói",
+  "state": "rj",
+  "region": "regiao-oceanica",
+  "official_status": "bairro_oficial",
+  "description": "Bairro residencial estratégico da Região Oceânica de Niterói, localizado na entrada da região, logo após o Túnel Charitas-Cafubá. Combina infraestrutura urbana, comércio próprio em expansão e acesso privilegiado tanto à Zona Sul (via túnel) quanto às praias oceânicas (Piratininga, Camboinhas, Itaipu). É bairro de transição cada vez mais valorizado, atraindo famílias que buscam custo-benefício na Região Oceânica.",
+  "boundaries": {
+    "all": ["niteroi-piratininga", "niteroi-itaipu", "niteroi-charitas", "niteroi-engenho-do-mato"]
+  },
+  "landmarks": [
+    "Boca do Túnel Charitas-Cafubá",
+    "Comércio da Estrada Francisco da Cruz Nunes",
+    "Acesso direto às praias oceânicas",
+    "Praça Cafubá"
+  ],
+  "main_streets": [
+    "Estrada Francisco da Cruz Nunes",
+    "Rua Alberto Marinho",
+    "Estrada Caetano Monteiro"
+  ],
+  "transportation": {
+    "tunnel": "Túnel Charitas-Cafubá - acesso direto à Zona Sul de Niterói",
+    "bus": "Linhas múltiplas conectando Centro, Zona Sul e demais bairros da Região Oceânica"
+  },
+  "market_profile": {
+    "price_tier": "medio",
+    "price_range_brl": {"min": 400000, "max": 1200000},
+    "primary_property_types": ["apartamento_medio", "casa", "condominio_fechado", "apartamento_compacto"],
+    "buyer_profile": "Famílias buscando bom custo-benefício na Região Oceânica, profissionais que trabalham na Zona Sul mas querem qualidade de vida, jovens casais",
+    "investment_keywords": ["custo-benefício", "acesso ao túnel", "Região Oceânica", "comércio próprio", "infraestrutura"]
+  },
+  "differentials": [
+    "Entrada estratégica da Região Oceânica",
+    "Acesso imediato ao Túnel Charitas-Cafubá",
+    "Comércio diversificado próprio",
+    "Próximo às praias oceânicas mais nobres",
+    "Preço mais acessível que Piratininga e Camboinhas",
+    "Bairro em valorização constante",
+    "Boa oferta de condomínios fechados"
+  ],
+  "history_summary": "Originalmente área de chácaras e sítios, Cafubá ganhou desenvolvimento urbano significativo a partir da década de 1990. A inauguração do Túnel Charitas-Cafubá na década de 2010 transformou o bairro em ponto-chave da conexão entre a Zona Sul e a Região Oceânica, acelerando significativamente sua valorização imobiliária.",
+  "sources": [
+    "Fundação de Arte de Niterói (FAN) - Prefeitura Municipal de Niterói",
+    "Plano Diretor de Niterói (Lei nº 3.385/2019)"
+  ]
+}

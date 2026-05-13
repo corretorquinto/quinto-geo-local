@@ -1,0 +1,60 @@
+{
+  "id": "niteroi-piratininga",
+  "type": "neighborhood",
+  "name": "Piratininga",
+  "city": "niteroi",
+  "city_name": "Niterói",
+  "state": "rj",
+  "region": "regiao-oceanica",
+  "official_status": "bairro_oficial",
+  "description": "Bairro nobre da Região Oceânica de Niterói, primeira faixa após a passagem pelo Túnel Charitas-Cafubá. Combina infraestrutura urbana consolidada com proximidade do mar e da Lagoa de Piratininga. É um dos bairros que mais cresceu em valorização imobiliária nos últimos anos, atraindo famílias que buscam qualidade de vida sem abrir mão do acesso à Zona Sul de Niterói.",
+  "boundaries": {
+    "all": ["niteroi-charitas", "niteroi-cafuba", "niteroi-camboinhas"]
+  },
+  "geographic_features": ["Praia de Piratininga", "Lagoa de Piratininga", "Oceano Atlântico"],
+  "beaches": [
+    {
+      "name": "Praia de Piratininga",
+      "type": "praia oceânica",
+      "characteristics": "mar aberto, ondas moderadas, ideal para surf e esportes aquáticos"
+    }
+  ],
+  "landmarks": [
+    "Praia de Piratininga",
+    "Lagoa de Piratininga",
+    "Pista de Caminhada da Lagoa",
+    "Polo Gastronômico de Piratininga",
+    "Igreja de Nossa Senhora da Conceição"
+  ],
+  "main_streets": [
+    "Avenida Almirante Tamandaré",
+    "Estrada Francisco da Cruz Nunes",
+    "Rua Esperança",
+    "Avenida Beira-Mar"
+  ],
+  "transportation": {
+    "tunnel": "Túnel Charitas-Cafubá conecta diretamente à Zona Sul",
+    "bus": "Linhas regulares para Centro, Charitas e Itaipu"
+  },
+  "market_profile": {
+    "price_tier": "alto",
+    "price_range_brl": {"min": 600000, "max": 2500000},
+    "primary_property_types": ["apartamento_alto_padrao", "cobertura", "casa", "condominio_fechado"],
+    "buyer_profile": "Famílias jovens, executivos buscando qualidade de vida, surfistas e amantes de esportes outdoor, segunda residência",
+    "investment_keywords": ["Região Oceânica", "qualidade de vida", "lagoa", "praia oceânica", "valorização crescente"]
+  },
+  "differentials": [
+    "Combinação de praia e lagoa em um só bairro",
+    "Acesso rápido à Zona Sul pelo Túnel Charitas-Cafubá",
+    "Pista de caminhada ao redor da lagoa",
+    "Polo gastronômico em expansão",
+    "Ambiente predominantemente residencial e familiar",
+    "Forte cultura de esportes outdoor (surf, stand-up paddle, ciclismo)",
+    "Valorização imobiliária acelerada nos últimos anos"
+  ],
+  "history_summary": "Originalmente área de fazendas e sítios, Piratininga começou sua urbanização efetiva na década de 1970. A abertura do Túnel Charitas-Cafubá na década de 2010 acelerou significativamente o desenvolvimento e a valorização do bairro, tornando-o uma alternativa de alto padrão à Zona Sul tradicional.",
+  "sources": [
+    "Fundação de Arte de Niterói (FAN) - Prefeitura Municipal de Niterói",
+    "Plano Diretor de Niterói (Lei nº 3.385/2019)"
+  ]
+}

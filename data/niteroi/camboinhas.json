@@ -1,0 +1,58 @@
+{
+  "id": "niteroi-camboinhas",
+  "type": "neighborhood",
+  "name": "Camboinhas",
+  "city": "niteroi",
+  "city_name": "Niterói",
+  "state": "rj",
+  "region": "regiao-oceanica",
+  "official_status": "bairro_oficial",
+  "description": "Bairro mais nobre e exclusivo da Região Oceânica de Niterói, conhecido por seus condomínios fechados de alto luxo, casas com piscina e ambiente predominantemente residencial. Localizado entre Piratininga e Itaipu, oferece ampla faixa de areia e mar aberto. É a opção preferida de cariocas e niteroienses de alto padrão para residência principal ou segunda residência à beira-mar.",
+  "boundaries": {
+    "all": ["niteroi-piratininga", "niteroi-itaipu"]
+  },
+  "geographic_features": ["Praia de Camboinhas", "Lagoa de Itaipu próxima", "Oceano Atlântico"],
+  "beaches": [
+    {
+      "name": "Praia de Camboinhas",
+      "type": "praia oceânica",
+      "characteristics": "mar aberto, faixa de areia ampla, águas mais claras, ambiente sofisticado"
+    }
+  ],
+  "landmarks": [
+    "Praia de Camboinhas",
+    "Condomínios de luxo",
+    "Quiosques sofisticados da orla",
+    "Lagoa de Itaipu (próxima)"
+  ],
+  "main_streets": [
+    "Avenida Beira-Mar",
+    "Estrada da Cachoeira",
+    "Avenida Almirante Tamandaré"
+  ],
+  "transportation": {
+    "car": "Acesso principal via Estrada Francisco da Cruz Nunes",
+    "bus": "Linhas para Centro de Niterói e Itaipu"
+  },
+  "market_profile": {
+    "price_tier": "altissimo",
+    "price_range_brl": {"min": 1200000, "max": 10000000},
+    "primary_property_types": ["casa_alto_padrao", "casa_luxo", "condominio_fechado", "apartamento_alto_padrao"],
+    "buyer_profile": "Executivos, empresários, segunda residência de cariocas de alto padrão, famílias buscando luxo à beira-mar, investidores de longo prazo",
+    "investment_keywords": ["luxo", "condomínio fechado", "praia oceânica", "exclusividade", "altíssimo padrão", "segunda residência"]
+  },
+  "differentials": [
+    "Bairro mais exclusivo da Região Oceânica",
+    "Predominância de casas de alto padrão em condomínios fechados",
+    "Ampla faixa de areia oceânica",
+    "Ambiente discreto e tranquilo",
+    "Quiosques e bistrôs sofisticados na orla",
+    "Forte presença de famílias estabelecidas há gerações",
+    "Valorização sustentada ao longo das décadas"
+  ],
+  "history_summary": "O nome Camboinhas vem do tupi-guarani ('cambo' significa enseada). O bairro foi desenvolvido a partir da década de 1970 como projeto de loteamento de alto padrão, com características urbanísticas planejadas que preservaram o caráter residencial e exclusivo até hoje.",
+  "sources": [
+    "Fundação de Arte de Niterói (FAN) - Prefeitura Municipal de Niterói",
+    "Plano Diretor de Niterói (Lei nº 3.385/2019)"
+  ]
+}

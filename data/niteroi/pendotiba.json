@@ -1,0 +1,53 @@
+{
+  "id": "niteroi-pendotiba",
+  "type": "neighborhood",
+  "name": "Pendotiba",
+  "city": "niteroi",
+  "city_name": "Niterói",
+  "state": "rj",
+  "region": "pendotiba",
+  "official_status": "bairro_oficial",
+  "description": "Bairro e região de Niterói situada em área verde e elevada, característica por casas em condomínios fechados, ruas arborizadas e qualidade de vida diferenciada. Pendotiba é simultaneamente nome de bairro oficial e da região que engloba também Maria Paula, Cantagalo, Largo da Batalha, Sapê, Matapaca e Badu. Atrai famílias que buscam casas com quintal, espaço e proximidade com a natureza, mantendo acesso razoável ao centro de Niterói. Etimologia tupi: 'pendot-iba' — área de muitas penas (referência aos pássaros da região).",
+  "boundaries": {
+    "all": ["niteroi-badu", "niteroi-maria-paula", "niteroi-cantagalo", "niteroi-largo-da-batalha"]
+  },
+  "geographic_features": ["Áreas verdes preservadas", "Vegetação de Mata Atlântica", "Região elevada"],
+  "landmarks": [
+    "Praça Pendotiba",
+    "Comércio próprio do bairro",
+    "Igreja local",
+    "Condomínios fechados de casas",
+    "Áreas de Mata Atlântica preservadas"
+  ],
+  "main_streets": [
+    "Estrada Caetano Monteiro",
+    "Rua Doutor Paulo Alves",
+    "Estrada Velha de Maricá",
+    "Avenida Doutor Acúrcio Torres"
+  ],
+  "transportation": {
+    "bus": "Linhas conectando Centro de Niterói, Santa Bárbara e demais bairros da região",
+    "car": "Acesso pela Estrada Velha de Maricá e RJ-104"
+  },
+  "market_profile": {
+    "price_tier": "medio_alto",
+    "price_range_brl": {"min": 500000, "max": 2500000},
+    "primary_property_types": ["casa", "condominio_fechado", "casa_alto_padrao", "casa_com_quintal"],
+    "buyer_profile": "Famílias buscando casa com terreno e quintal, profissionais que valorizam qualidade de vida e privacidade, perfil estabelecido buscando longo prazo, executivos que preferem morar fora do urbano denso",
+    "investment_keywords": ["casa com quintal", "condomínio fechado", "qualidade de vida", "natureza", "famílias", "privacidade", "área verde"]
+  },
+  "differentials": [
+    "Predominância de casas em condomínios fechados",
+    "Ar mais puro pela altitude e arborização",
+    "Espaço amplo (terrenos maiores que outras regiões)",
+    "Forte presença de áreas verdes preservadas",
+    "Ambiente familiar e estabelecido",
+    "Privacidade e segurança nos condomínios",
+    "Ponto de partida natural para escapadas a Maricá e região serrana"
+  ],
+  "history_summary": "Pendotiba era originalmente região rural com fazendas e sítios. A urbanização começou de forma planejada na segunda metade do século XX, com criação de condomínios fechados que mantiveram a baixa densidade demográfica e o caráter residencial premium da região. Em décadas recentes, a região consolidou-se como alternativa de alto padrão para famílias que buscam casa com terreno.",
+  "sources": [
+    "Fundação de Arte de Niterói (FAN) - Prefeitura Municipal de Niterói",
+    "Plano Diretor de Niterói (Lei nº 3.385/2019)"
+  ]
+}

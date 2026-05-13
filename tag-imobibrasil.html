@@ -1,0 +1,73 @@
+<!--
+==================================================================
+  QUINTO GEO LOCAL — TAG DE INTEGRAÇÃO v1.2.0
+==================================================================
+  Tag responsável por carregar dados Schema.org Place em páginas
+  de bairro do Quinto Imóveis.
+
+  COMPATÍVEL COM: ImobiBrasil CMS (módulo "Bairros que Amamos")
+  CONVIVE COM: Quinto GTM Schema Enricher v4.3 (sem duplicação)
+
+  ⚠️ INSTALAÇÃO: NÃO COLOCAR NO GOOGLE TAG MANAGER.
+     Esta tag é Schema.org indexável e precisa estar direto no HTML
+     da página para o Googlebot ler na primeira passada.
+
+     Onde instalar:
+     1. Painel "TAGS HTML ADICIONAIS" da página de bairro no ImobiBrasil
+     2. OU template global do site (rodapé do <body>)
+
+  DETECÇÃO AUTOMÁTICA:
+  A engine reconhece páginas de bairro automaticamente quando:
+  - URL no padrão /bairro/[slug]-id-XXXX (ImobiBrasil "Bairros que Amamos")
+  - URL no padrão /bairros/[slug] (custom)
+  - URLs diretas: /icarai, /charitas, /jardim-icarai, etc.
+  - Páginas com <meta name="quinto-geo-neighborhood">
+
+  ESCOPO DE RENDERIZAÇÃO:
+  - ✅ Renderiza em: páginas de bairro (várias detecções)
+  - ❌ NÃO renderiza em: /imovel/, /noticias/, /sobre, / (cobertas pela v4.3)
+
+  BAIRROS COBERTOS NA v1.2.0:
+    Zona Sul:
+      niteroi-centro, niteroi-icarai, niteroi-jardim-icarai,
+      niteroi-inga, niteroi-santa-rosa, niteroi-sao-francisco,
+      niteroi-charitas, niteroi-boa-viagem, niteroi-sao-domingos
+
+    Região Oceânica:
+      niteroi-piratininga, niteroi-camboinhas, niteroi-itaipu,
+      niteroi-itacoatiara, niteroi-cafuba, niteroi-engenho-do-mato
+
+    Pendotiba:
+      niteroi-pendotiba, niteroi-badu
+
+    Zona Norte:
+      niteroi-barreto, niteroi-fonseca
+
+  Total: 18 bairros + 1 sub-bairro (Jardim Icaraí)
+==================================================================
+-->
+
+<!-- 1. META TAG IDENTIFICADORA (opcional se a URL já segue padrão conhecido) -->
+<meta name="quinto-geo-neighborhood" content="niteroi-icarai">
+
+<!-- 2. CONTAINER DE MICRODATA VISÍVEL (opcional — Schema-only via JSON-LD funciona sem) -->
+<div id="quinto-geo-container"></div>
+
+<!-- 3. CARREGAMENTO DA ENGINE -->
+<script src="https://cdn.jsdelivr.net/gh/corretorquinto/quinto-geo-local@v1.2.0/core.js" defer></script>
+
+<!-- 4. INICIALIZAÇÃO -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    if (typeof QuintoGeo === 'undefined') {
+      console.warn('[Quinto Geo] Engine não carregada');
+      return;
+    }
+    QuintoGeo.init({
+      baseUrl: 'https://cdn.jsdelivr.net/gh/corretorquinto/quinto-geo-local@v1.2.0/',
+      autoRender: true,
+      includeNeighbors: true,
+      maxNeighbors: 3
+    });
+  });
+</script>

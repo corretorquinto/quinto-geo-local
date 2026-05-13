@@ -1,0 +1,51 @@
+{
+  "id": "niteroi-engenho-do-mato",
+  "type": "neighborhood",
+  "name": "Engenho do Mato",
+  "city": "niteroi",
+  "city_name": "Niterói",
+  "state": "rj",
+  "region": "regiao-oceanica",
+  "official_status": "bairro_oficial",
+  "description": "Bairro de transição da Região Oceânica de Niterói, localizado entre Itaipu e a região mais interior. Caracteriza-se por ambiente residencial calmo, predominância de casas com quintal e proximidade com áreas naturais preservadas. É bairro tradicional, com forte presença de famílias estabelecidas há décadas, e oferece bom custo-benefício para quem busca tranquilidade longe do centro urbano.",
+  "boundaries": {
+    "all": ["niteroi-itaipu", "niteroi-itacoatiara", "niteroi-cafuba"]
+  },
+  "geographic_features": ["Áreas verdes preservadas", "Proximidade ao Parque Estadual da Serra da Tiririca"],
+  "landmarks": [
+    "Estrada do Engenho do Mato (eixo principal)",
+    "Áreas verdes naturais",
+    "Igreja local",
+    "Comércio de bairro"
+  ],
+  "main_streets": [
+    "Estrada do Engenho do Mato",
+    "Estrada Caetano Monteiro",
+    "Rua Vereador José Antunes Bouças"
+  ],
+  "transportation": {
+    "bus": "Linhas para Centro de Niterói, Itaipu e Cafubá",
+    "car": "Acesso pela Estrada Francisco da Cruz Nunes"
+  },
+  "market_profile": {
+    "price_tier": "medio",
+    "price_range_brl": {"min": 350000, "max": 900000},
+    "primary_property_types": ["casa", "apartamento_medio", "terreno", "casa_com_quintal"],
+    "buyer_profile": "Famílias buscando casa com quintal, aposentados, profissionais que valorizam tranquilidade, perfil mais conservador, primeira aquisição",
+    "investment_keywords": ["casa com quintal", "tranquilidade", "custo-benefício", "famílias", "natureza próxima"]
+  },
+  "differentials": [
+    "Ambiente residencial calmo e familiar",
+    "Predominância de casas com quintal",
+    "Proximidade ao Parque Estadual da Serra da Tiririca",
+    "Custo-benefício atrativo para a Região Oceânica",
+    "Comunidade estabelecida há gerações",
+    "Acesso fácil às praias de Itaipu e Itacoatiara",
+    "Espaço para quem busca terrenos maiores"
+  ],
+  "history_summary": "O nome 'Engenho do Mato' remete à antiga vocação rural da região, com engenhos e fazendas no período colonial. O bairro manteve por muito tempo o caráter rural e foi sendo urbanizado gradualmente a partir das últimas décadas do século XX, preservando até hoje características de bairro tranquilo e residencial.",
+  "sources": [
+    "Fundação de Arte de Niterói (FAN) - Prefeitura Municipal de Niterói",
+    "Plano Diretor de Niterói (Lei nº 3.385/2019)"
+  ]
+}

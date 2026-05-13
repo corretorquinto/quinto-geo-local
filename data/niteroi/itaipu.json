@@ -1,0 +1,63 @@
+{
+  "id": "niteroi-itaipu",
+  "type": "neighborhood",
+  "name": "Itaipu",
+  "city": "niteroi",
+  "city_name": "Niterói",
+  "state": "rj",
+  "region": "regiao-oceanica",
+  "official_status": "bairro_oficial",
+  "description": "Bairro residencial litorâneo tradicional da Região Oceânica de Niterói, com forte identidade histórica e cultural. Combina praia oceânica, lagoa, comércio próprio bem desenvolvido e ambiente familiar. Etimologia tupi: 'ita' (pedra) + 'ipu' (que ressoa) — 'pedra que ressoa', referindo-se à Pedra do Índio na praia. É um dos bairros mais antigos da Região Oceânica.",
+  "boundaries": {
+    "all": ["niteroi-camboinhas", "niteroi-itacoatiara", "niteroi-cafuba", "niteroi-engenho-do-mato"]
+  },
+  "geographic_features": ["Praia de Itaipu", "Lagoa de Itaipu", "Pedra do Índio", "Oceano Atlântico"],
+  "beaches": [
+    {
+      "name": "Praia de Itaipu",
+      "type": "praia oceânica",
+      "characteristics": "faixa de areia ampla, mar aberto, presença histórica de pescadores artesanais"
+    }
+  ],
+  "landmarks": [
+    "Praia de Itaipu",
+    "Lagoa de Itaipu",
+    "Pedra do Índio",
+    "Itaipu Multicenter (shopping)",
+    "MAH - Museu de Arqueologia de Itaipu (antigo Recolhimento de Santa Teresa)",
+    "Igreja de São Sebastião de Itaipu",
+    "Colônia de Pescadores"
+  ],
+  "main_streets": [
+    "Estrada Francisco da Cruz Nunes",
+    "Estrada Engenho do Mato",
+    "Rua Almirante Pereira Guimarães",
+    "Avenida Doutor Ismael de Lima Coutinho"
+  ],
+  "transportation": {
+    "bus": "Linhas para Centro de Niterói, Charitas e demais bairros da Região Oceânica",
+    "car": "Acesso pela Estrada Francisco da Cruz Nunes"
+  },
+  "market_profile": {
+    "price_tier": "medio_alto",
+    "price_range_brl": {"min": 450000, "max": 1800000},
+    "primary_property_types": ["apartamento_medio_alto", "casa", "cobertura", "condominio_fechado"],
+    "buyer_profile": "Famílias, aposentados, jovens profissionais, surfistas, amantes de natureza e história, investidores de médio prazo",
+    "investment_keywords": ["tradicional", "lagoa e mar", "história colonial", "comércio próprio", "famílias", "custo-benefício"]
+  },
+  "differentials": [
+    "Bairro mais antigo da Região Oceânica, com identidade cultural marcante",
+    "Combinação de praia, lagoa e museu de arqueologia",
+    "Comércio local diversificado (Itaipu Multicenter)",
+    "Comunidade de pescadores artesanais ativa",
+    "Patrimônio histórico-cultural preservado",
+    "Custo-benefício atrativo comparado a Camboinhas",
+    "Forte senso de comunidade local"
+  ],
+  "history_summary": "Itaipu é um dos núcleos coloniais mais antigos da região, com presença documentada desde o século XVII. O Recolhimento de Santa Teresa, hoje sede do Museu de Arqueologia de Itaipu (MAH), foi construído em 1763 como retiro religioso. A colônia de pescadores mantém tradições centenárias até hoje.",
+  "sources": [
+    "Fundação de Arte de Niterói (FAN) - Prefeitura Municipal de Niterói",
+    "Museu de Arqueologia de Itaipu (MAH/IPHAN)",
+    "Plano Diretor de Niterói (Lei nº 3.385/2019)"
+  ]
+}

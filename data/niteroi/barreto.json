@@ -1,0 +1,61 @@
+{
+  "id": "niteroi-barreto",
+  "type": "neighborhood",
+  "name": "Barreto",
+  "city": "niteroi",
+  "city_name": "Niterói",
+  "state": "rj",
+  "region": "zona-norte",
+  "official_status": "bairro_oficial",
+  "description": "Bairro tradicional do norte de Niterói, banhado pela Baía de Guanabara, com forte identidade cultural italiana herdada da imigração do final do século XIX e início do XX. Caracteriza-se por comércio popular vibrante, famílias estabelecidas há gerações e acesso privilegiado à Ponte Rio-Niterói. É um dos bairros com maior senso de comunidade local da cidade.",
+  "boundaries": {
+    "all": ["niteroi-sao-lourenco", "niteroi-fonseca", "niteroi-ponta-dareia"]
+  },
+  "geographic_features": ["Baía de Guanabara", "Praia do Barreto"],
+  "beaches": [
+    {
+      "name": "Praia do Barreto",
+      "type": "praia de baía",
+      "characteristics": "praia de baía com características urbanas"
+    }
+  ],
+  "landmarks": [
+    "Praia do Barreto",
+    "Igreja Italiana (Madona di Montenero) - patrimônio cultural",
+    "Avenida Feliciano Sodré (eixo comercial)",
+    "Festa de Madona di Montenero (tradicional anual)",
+    "Restaurantes italianos tradicionais"
+  ],
+  "main_streets": [
+    "Avenida Feliciano Sodré",
+    "Rua Conselheiro Macedo Soares",
+    "Rua Doutor Augusto Lopes Pontes",
+    "Avenida do Contorno"
+  ],
+  "transportation": {
+    "bus": "Múltiplas linhas para Centro, Fonseca e Ponte Rio-Niterói",
+    "highways": "Acesso fácil à Ponte Rio-Niterói (BR-101)",
+    "ferry": "Próximo à Estação São Lourenço (transporte aquaviário)"
+  },
+  "market_profile": {
+    "price_tier": "baixo_medio",
+    "price_range_brl": {"min": 200000, "max": 600000},
+    "primary_property_types": ["apartamento_compacto", "apartamento_medio", "casa", "imovel_comercial"],
+    "buyer_profile": "Classe média trabalhadora, comerciantes tradicionais, famílias italianas estabelecidas, primeira aquisição, investidores em imóveis comerciais",
+    "investment_keywords": ["tradição italiana", "comércio popular", "Ponte Rio-Niterói", "famílias", "comunidade local", "custo acessível"]
+  },
+  "differentials": [
+    "Forte identidade cultural italiana",
+    "Comércio popular vibrante e diversificado",
+    "Acesso direto à Ponte Rio-Niterói",
+    "Comunidade italiana ativa com festas tradicionais",
+    "Restaurantes italianos autênticos e tradicionais",
+    "Custo de vida acessível",
+    "Forte senso de pertencimento comunitário"
+  ],
+  "history_summary": "Barreto foi um dos principais destinos da imigração italiana em Niterói no final do século XIX e início do século XX. Os imigrantes vieram principalmente de regiões da Toscana, trazendo a devoção à Madona di Montenero — culto religioso que até hoje mobiliza a comunidade local em festa anual tradicional. O bairro mantém esse caráter ítalo-niteroiense como sua marca cultural mais forte.",
+  "sources": [
+    "Fundação de Arte de Niterói (FAN) - Prefeitura Municipal de Niterói",
+    "Plano Diretor de Niterói (Lei nº 3.385/2019)"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "niteroi-boa-viagem",
+  "type": "neighborhood",
+  "name": "Boa Viagem",
+  "city": "niteroi",
+  "city_name": "Niterói",
+  "state": "rj",
+  "region": "zona-sul",
+  "official_status": "bairro_oficial",
+  "description": "Pequeno bairro residencial de alto padrão da Zona Sul de Niterói, situado em península privilegiada com vista panorâmica para a Baía de Guanabara e o Rio de Janeiro. Caracteriza-se por ambiente extremamente residencial, baixa densidade, ruas calmas e oferta imobiliária seleta. Boa Viagem é uma das opções mais discretas e valorizadas para quem busca exclusividade próxima ao Centro de Niterói.",
+  "boundaries": {
+    "all": ["niteroi-inga"]
+  },
+  "geographic_features": ["Baía de Guanabara", "Vista panorâmica para o Pão de Açúcar", "Península privilegiada"],
+  "landmarks": [
+    "Igreja de Nossa Senhora da Boa Viagem (histórica, séc. XVIII)",
+    "Capela de São Pedro",
+    "Mirantes naturais com vista para o Rio de Janeiro",
+    "Ruas residenciais arborizadas",
+    "Vista privilegiada para o Pão de Açúcar"
+  ],
+  "main_streets": [
+    "Rua Doutor Paulo Cesar",
+    "Rua General Eurico Gaspar Dutra",
+    "Avenida Quintino Bocaiúva (próxima)"
+  ],
+  "transportation": {
+    "ferry": "Próximo à Estação das Barcas (Centro de Niterói)",
+    "bus": "Linhas conectando Centro, Icaraí e São Francisco"
+  },
+  "market_profile": {
+    "price_tier": "medio_alto",
+    "price_range_brl": {"min": 600000, "max": 2500000},
+    "primary_property_types": ["apartamento_alto_padrao", "casa", "cobertura"],
+    "buyer_profile": "Famílias estabelecidas, profissionais de alto padrão buscando discrição, executivos que valorizam vista e tranquilidade, segunda residência",
+    "investment_keywords": ["alto padrão", "vista privilegiada", "exclusividade", "tranquilidade", "península", "baixa densidade"]
+  },
+  "differentials": [
+    "Localização em península com vista panorâmica",
+    "Vista para o Pão de Açúcar e a entrada da Baía de Guanabara",
+    "Baixa densidade demográfica e construtiva",
+    "Igreja histórica do século XVIII como marco",
+    "Ambiente extremamente residencial e silencioso",
+    "Proximidade ao Centro mantendo isolamento residencial",
+    "Oferta imobiliária seleta e valorizada"
+  ],
+  "history_summary": "Boa Viagem é um dos pontos mais antigos de ocupação de Niterói. A Igreja de Nossa Senhora da Boa Viagem foi construída no século XVIII (1663-1779) em estilo colonial, sendo um dos marcos religiosos e arquitetônicos mais antigos da cidade. O bairro manteve seu caráter residencial discreto e seleto ao longo dos séculos, preservando a vista panorâmica e a baixa densidade.",
+  "sources": [
+    "Fundação de Arte de Niterói (FAN) - Prefeitura Municipal de Niterói",
+    "IPHAN - patrimônio histórico Igreja de Nossa Senhora da Boa Viagem",
+    "Plano Diretor de Niterói (Lei nº 3.385/2019)"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "niteroi-charitas",
+  "type": "neighborhood",
+  "name": "Charitas",
+  "city": "niteroi",
+  "city_name": "Niterói",
+  "state": "rj",
+  "region": "zona-sul",
+  "official_status": "bairro_oficial",
+  "description": "Bairro nobre litorâneo da Zona Sul de Niterói, com vista privilegiada para o Pão de Açúcar e o Rio de Janeiro. Localizado em uma estreita faixa de terra entre a orla da Baía de Guanabara e a serra. Famoso pela Estação Hidroviária projetada por Oscar Niemeyer e pela conexão direta de catamarã para a Praça XV. Etimologia: do latim 'caritas' (caridade), inscrição original na porta da capela histórica.",
+  "boundaries": {
+    "all": ["niteroi-piratininga", "niteroi-sao-francisco", "niteroi-jurujuba"],
+    "special_connections": [
+      "Conexão com Cafubá/Região Oceânica via Túnel Charitas-Cafubá"
+    ]
+  },
+  "geographic_features": ["Baía de Guanabara", "Enseada de São Francisco", "Praia de Charitas"],
+  "beaches": [
+    {
+      "name": "Praia de Charitas",
+      "type": "praia de baía",
+      "characteristics": "águas calmas, vista para o Pão de Açúcar e o Rio de Janeiro"
+    }
+  ],
+  "landmarks": [
+    "Estação Hidroviária Charitas (projeto Oscar Niemeyer)",
+    "Clube Naval Charitas",
+    "Praia de Charitas",
+    "Avenida Quintino Bocaiúva (orla)",
+    "Restaurante Olimpo (no terraço da Estação Hidroviária)"
+  ],
+  "main_streets": [
+    "Avenida Quintino Bocaiúva",
+    "Avenida Carlos Ermelindo Marins",
+    "Avenida Prefeito Sílvio Picanço"
+  ],
+  "transportation": {
+    "ferry": "Estação Hidroviária Charitas - catamarã direto para Praça XV (Rio de Janeiro)",
+    "tunnel": "Túnel Charitas-Cafubá (acesso direto à Região Oceânica)",
+    "bus": "Linhas conectando Centro de Niterói e Região Oceânica"
+  },
+  "market_profile": {
+    "price_tier": "altissimo",
+    "price_range_brl": {"min": 800000, "max": 5000000},
+    "primary_property_types": ["apartamento_alto_padrao", "cobertura", "apartamento_luxo", "casa"],
+    "buyer_profile": "Executivos que trabalham no Rio de Janeiro, alto poder aquisitivo, famílias estabelecidas, profissionais que valorizam a integração rápida com a capital",
+    "investment_keywords": ["altíssimo padrão", "vista para o Rio", "catamarã", "Niemeyer", "luxo"]
+  },
+  "differentials": [
+    "Integração com o Rio de Janeiro via catamarã (aproximadamente 25 minutos até a Praça XV)",
+    "Vista do Pão de Açúcar e da entrada da Baía de Guanabara",
+    "Estação Hidroviária projetada por Oscar Niemeyer",
+    "Conexão direta com a Região Oceânica pelo Túnel Charitas-Cafubá",
+    "Bairro mais valorizado por metro quadrado da Zona Sul",
+    "Praia de águas calmas com vista privilegiada"
+  ],
+  "history_summary": "Área que pertenceu à Sesmaria Jesuítica, com capela histórica dedicada a São Francisco Xavier. O nome deriva da inscrição 'caritas' na porta da antiga capela. Charitas ganhou identidade própria como bairro recentemente — antes era considerada parte de Jurujuba.",
+  "sources": [
+    "Fundação de Arte de Niterói (FAN) - Prefeitura Municipal de Niterói",
+    "Plano Diretor de Niterói (Lei nº 3.385/2019)"
+  ]
+}

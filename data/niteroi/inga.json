@@ -1,0 +1,56 @@
+{
+  "id": "niteroi-inga",
+  "type": "neighborhood",
+  "name": "Ingá",
+  "city": "niteroi",
+  "city_name": "Niterói",
+  "state": "rj",
+  "region": "zona-sul",
+  "official_status": "bairro_oficial",
+  "description": "Bairro residencial nobre da Zona Sul de Niterói, situado entre Icaraí e o Centro, banhado pela Baía de Guanabara. Caracteriza-se pela proximidade da Universidade Federal Fluminense (UFF) e por uma forte presença de profissionais liberais, professores universitários e pós-graduandos. Oferece vista para Niterói e para o Rio de Janeiro.",
+  "boundaries": {
+    "all": ["niteroi-centro", "niteroi-sao-domingos", "niteroi-icarai", "niteroi-boa-viagem"]
+  },
+  "geographic_features": ["Baía de Guanabara", "Praia das Flexas"],
+  "beaches": [
+    {
+      "name": "Praia das Flexas",
+      "type": "praia de baía"
+    }
+  ],
+  "landmarks": [
+    "Universidade Federal Fluminense (UFF) - campus do Gragoatá próximo",
+    "Praia das Flexas",
+    "Museu de Arte Contemporânea (MAC) - próximo",
+    "Solar do Jambeiro - próximo"
+  ],
+  "main_streets": [
+    "Rua Presidente Pedreira",
+    "Rua São Sebastião",
+    "Rua Tiradentes",
+    "Rua Marquês de Paraná"
+  ],
+  "universities": [
+    "UFF - acesso aos campi do Gragoatá e Reitoria"
+  ],
+  "transportation": {
+    "ferry": "Próximo à Estação das Barcas (Centro)"
+  },
+  "market_profile": {
+    "price_tier": "medio_alto",
+    "primary_property_types": ["apartamento_medio_alto", "apartamento_alto_padrao", "cobertura", "casa"],
+    "buyer_profile": "Profissionais liberais, professores universitários, pós-graduandos, famílias estabelecidas",
+    "investment_keywords": ["UFF", "vista da baía", "tradicional", "valorizado"]
+  },
+  "differentials": [
+    "Proximidade da Universidade Federal Fluminense",
+    "Vista privilegiada da Baía de Guanabara e do Rio de Janeiro",
+    "Bairro residencial tradicional com boa infraestrutura",
+    "Imóveis com perfil acadêmico e profissional liberal",
+    "Acesso rápido ao Centro e a Icaraí"
+  ],
+  "sources": [
+    "Fundação de Arte de Niterói (FAN) - Prefeitura Municipal de Niterói",
+    "Plano Diretor de Niterói (Lei nº 3.385/2019)"
+  ]
+}

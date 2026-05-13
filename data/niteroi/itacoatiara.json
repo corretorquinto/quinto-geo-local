@@ -1,0 +1,60 @@
+{
+  "id": "niteroi-itacoatiara",
+  "type": "neighborhood",
+  "name": "Itacoatiara",
+  "city": "niteroi",
+  "city_name": "Niterói",
+  "state": "rj",
+  "region": "regiao-oceanica",
+  "official_status": "bairro_oficial",
+  "description": "Pequeno bairro de altíssimo padrão na Região Oceânica de Niterói, famoso mundialmente pela praia de mesmo nome — considerada uma das mais belas do estado do Rio de Janeiro. Etimologia tupi: 'ita' (pedra) + 'coatiara' (pintada) — 'pedra pintada'. Caracteriza-se por oferta imobiliária extremamente limitada, exclusividade e contato direto com a natureza preservada do Parque Estadual da Serra da Tiririca.",
+  "boundaries": {
+    "all": ["niteroi-itaipu", "niteroi-engenho-do-mato"]
+  },
+  "geographic_features": ["Praia de Itacoatiara", "Costões rochosos", "Parque Estadual da Serra da Tiririca", "Oceano Atlântico"],
+  "beaches": [
+    {
+      "name": "Praia de Itacoatiara",
+      "type": "praia oceânica",
+      "characteristics": "uma das praias mais bonitas do Rio de Janeiro, ondas fortes ideais para surf profissional, rodeada por costões rochosos naturais"
+    }
+  ],
+  "landmarks": [
+    "Praia de Itacoatiara",
+    "Costão de Itacoatiara",
+    "Parque Estadual da Serra da Tiririca",
+    "Trilha do Costão",
+    "Trilha da Pedra do Elefante"
+  ],
+  "main_streets": [
+    "Estrada de Itacoatiara",
+    "Rua Almirante Tamandaré",
+    "Avenida Beira-Mar"
+  ],
+  "transportation": {
+    "car": "Acesso principal via Estrada Francisco da Cruz Nunes → Estrada de Itacoatiara",
+    "bus": "Linhas regulares para Centro de Niterói (menor frequência que outros bairros da Região Oceânica)"
+  },
+  "market_profile": {
+    "price_tier": "altissimo",
+    "price_range_brl": {"min": 1500000, "max": 8000000},
+    "primary_property_types": ["casa_alto_padrao", "casa_luxo", "apartamento_alto_padrao", "cobertura"],
+    "buyer_profile": "Surfistas profissionais, amantes da natureza, alto padrão buscando isolamento e exclusividade, segunda residência de famílias abastadas",
+    "investment_keywords": ["altíssimo padrão", "exclusividade", "praia premiada", "natureza preservada", "surf", "isolamento", "segunda residência"]
+  },
+  "differentials": [
+    "Praia considerada uma das mais belas do Rio de Janeiro",
+    "Spot de surf reconhecido nacional e internacionalmente",
+    "Cercado pelo Parque Estadual da Serra da Tiririca",
+    "Costões rochosos para contemplação e trilhas",
+    "Oferta imobiliária extremamente limitada (preserva exclusividade)",
+    "Trilhas para Pedra do Elefante e Costão",
+    "Ambiente intimista e silencioso, longe de centros urbanos"
+  ],
+  "history_summary": "Itacoatiara permaneceu como vila de pescadores até as últimas décadas do século XX. A descoberta da praia pela cultura do surf internacional na década de 1980 transformou o bairro em destino de alto padrão, mantendo até hoje o equilíbrio entre desenvolvimento imobiliário e preservação ambiental devido à proximidade com o Parque Estadual da Serra da Tiririca.",
+  "sources": [
+    "Fundação de Arte de Niterói (FAN) - Prefeitura Municipal de Niterói",
+    "INEA - Parque Estadual da Serra da Tiririca",
+    "Plano Diretor de Niterói (Lei nº 3.385/2019)"
+  ]
+}

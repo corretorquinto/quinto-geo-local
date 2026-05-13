@@ -1,0 +1,75 @@
+{
+  "id": "niteroi-icarai",
+  "type": "neighborhood",
+  "name": "Icaraí",
+  "city": "niteroi",
+  "city_name": "Niterói",
+  "state": "rj",
+  "region": "zona-sul",
+  "official_status": "bairro_oficial",
+  "description": "Bairro mais nobre e desejado de Niterói, com função polarizadora e a maior densidade demográfica do município. Combina orla marítima, vida cultural, polo gastronômico e infraestrutura completa. Etimologia tupi-guarani: I (água/rio) + Carahy (sagrado/bento) — 'água ou rio sagrado'.",
+  "boundaries": {
+    "all": ["niteroi-inga", "niteroi-centro", "niteroi-santa-rosa", "niteroi-vital-brasil", "niteroi-sao-francisco"]
+  },
+  "geographic_features": ["Baía de Guanabara", "Praia de Icaraí"],
+  "beaches": [
+    {
+      "name": "Praia de Icaraí",
+      "extension": "aproximadamente 2 km",
+      "type": "praia de baía"
+    }
+  ],
+  "landmarks": [
+    "Praia de Icaraí",
+    "Campo de São Bento",
+    "Polo Gastronômico (compartilhado com Jardim Icaraí)",
+    "Teatro Municipal Abel",
+    "Universidade Federal Fluminense (UFF) - Reitoria",
+    "Shopping Icaraí"
+  ],
+  "main_streets": [
+    "Avenida Jornalista Alberto Francisco Torres (orla)",
+    "Avenida Roberto Silveira",
+    "Rua Mariz e Barros",
+    "Rua Domingues de Sá",
+    "Rua Presidente Backer",
+    "Rua Doutor Paulo César",
+    "Rua Lopes Trovão",
+    "Rua General Pereira da Silva",
+    "Rua Capitão Zeferino",
+    "Rua Álvares de Azevedo",
+    "Rua Mem de Sá",
+    "Rua Tavares de Macedo",
+    "Rua Miguel de Frias",
+    "Rua Ator Paulo Gustavo (antiga Rua Coronel Moreira César)"
+  ],
+  "universities": [
+    "Universidade Federal Fluminense (UFF) - Reitoria, Rua Miguel de Frias, 9",
+    "UNIP Niterói - Av. Roberto Silveira, 310"
+  ],
+  "transportation": {
+    "ferry": "Acesso próximo à Estação das Barcas (Centro)",
+    "bus": "Múltiplas linhas conectando Centro, Região Oceânica e municípios vizinhos"
+  },
+  "market_profile": {
+    "price_tier": "alto",
+    "price_range_brl": {"min": 500000, "max": 3000000},
+    "primary_property_types": ["apartamento_alto_padrao", "cobertura", "apartamento_medio"],
+    "buyer_profile": "Profissionais liberais, executivos, famílias estabelecidas, professores universitários, investidores",
+    "investment_keywords": ["alto padrão", "orla", "valorização contínua", "infraestrutura completa"]
+  },
+  "differentials": [
+    "Orla com calçadão de aproximadamente 2 km",
+    "Infraestrutura urbana completa",
+    "Polo gastronômico ativo",
+    "Vida cultural intensa",
+    "Maior concentração de comércio e serviços da Zona Sul",
+    "Sede da UFF",
+    "Bairro mais valorizado de Niterói"
+  ],
+  "history_summary": "Habitado pelos tupinambás até 1567, passou ao domínio português em 1568 e foi doado aos temiminós. Integrou Niterói no século XIX e teve sua urbanização iniciada no século XX, com marcos urbanísticos como o Hotel Balneário Cassino Icarahy e a chegada da UFF.",
+  "sources": [
+    "Fundação de Arte de Niterói (FAN) - Prefeitura Municipal de Niterói",
+    "Plano Diretor de Niterói (Lei nº 3.385/2019)"
+  ]
+}
