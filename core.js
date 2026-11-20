@@ -49,7 +49,9 @@
   'use strict';
 
   /* Constantes da v4.3 — usadas para conectar o grafo Schema.org */
-  var V43_ORGANIZATION_ID = 'https://www.quintoimoveis.com.br/#organization';
+  /* nov/2026: @id da imobiliária padronizado em #imobiliaria (bloco nativo
+     do ImobiBrasil, tag HTML adicional, Schema Enricher v4.9 e tag do blog) */
+  var V43_ORGANIZATION_ID = 'https://www.quintoimoveis.com.br/#imobiliaria';
   var V43_WEBSITE_ID = 'https://www.quintoimoveis.com.br/#website';
   var V43_FOUNDER_ID = 'https://www.quintoimoveis.com.br/#antonio-quinto';
   var V43_SITE_BASE = 'https://www.quintoimoveis.com.br';
@@ -429,8 +431,9 @@
         });
       }
 
-      /* Conexão com Organization da v4.3 */
-      place.knownByOrganization = { '@id': V43_ORGANIZATION_ID };
+      /* nov/2026: removido place.knownByOrganization — a propriedade não
+         existe no Schema.org. A ligação com a imobiliária fica no
+         WebPage (publisher). */
 
       /* WebPage */
       var webPage = {
