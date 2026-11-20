@@ -325,6 +325,19 @@
           }
           return false;
         })
+        .filter(function (id) {
+          /* nov/2026: só tenta carregar vizinhos que existem no manifest.
+             Antes, limítrofes sem JSON (ex.: Fátima, Cubango) davam erro 404
+             e ocupavam as vagas de maxNeighbors, deixando de fora vizinhos
+             cobertos (ex.: São Francisco, para Santa Rosa). */
+          var m = self.cache.manifest;
+          if (!m || !m.cities) return true;
+          for (var c in m.cities) {
+            var lista = m.cities[c].neighborhoods || [];
+            if (lista.indexOf(id) > -1) return true;
+          }
+          return false;
+        })
         .slice(0, max);
 
       var promises = neighborIds.map(function (id) {
