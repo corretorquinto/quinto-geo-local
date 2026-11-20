@@ -1,6 +1,6 @@
 Quinto Geo Local — v1.2.0
-Sistema modular de dados geográficos estruturados (cidades, bairros, sub-bairros) para Quinto Imóveis, projetado para conviver harmoniosamente com a Quinto GTM Schema Enricher v4.3 e detectar automaticamente as URLs das páginas "Bairros que Amamos" do ImobiBrasil.
-Arquitetura: Multi-cidade modular com lazy-loading via CDN externo (GitHub Pages + jsDelivr), com renderização condicional e detecção inteligente de URLs.
+Sistema modular de dados geográficos estruturados (cidades, bairros, sub-bairros) para Quinto Imóveis, projetado para conviver com a Quinto GTM Schema Enricher (versão atual: v4.9; chamada de "v4.3" no código, por histórico) e detectar automaticamente as URLs das páginas "Bairros que Amamos" do ImobiBrasil.
+Arquitetura: Multi-cidade modular com lazy-loading via GitHub Pages (`corretorquinto.github.io/quinto-geo-local`), com renderização condicional e detecção inteligente de URLs.
 Autor: Antônio Quinto — CRECI-RJ 040171 — quintoimoveis.com.br
 ---
 🆕 Novidades da v1.2.0
@@ -15,7 +15,7 @@ O que a v4.3 (GTM) faz
 Tipo de página	Schema.org gerado
 `/imovel/{id}/...` (imóvel individual)	RealEstateListing, Product, Offer, BuyAction, FAQPage
 `/imovel/...` (listagem de imóveis)	ItemList com filtros
-`/noticias/...` (blog)	Article + BreadcrumbList
+`/noticias/...` (blog)	Só meta tags (Open Graph). Article, FAQPage e BreadcrumbList ficam na tag GTM Quinto Article Schema Blog v1.3, que também marca o bairro do artigo (`contentLocation`) com o mesmo `@id` do Place desta engine
 `/sobre`	Person + ProfilePage
 `/` (home)	Organization + WebSite
 A v4.3 também gerencia Open Graph e Twitter Cards em todas as páginas.
@@ -33,6 +33,7 @@ Cruza `@id` com `WebSite` da v4.3 (`https://www.quintoimoveis.com.br/#website`)
 Resultado: o Google vê um único grafo Schema.org coerente.
 ⚠️ Onde NÃO instalar esta tag
 Google Tag Manager — Schema.org via GTM tem indexação atrasada (dias ou semanas)
+Onde está instalada hoje: na "Tag HTML adicional" global do ImobiBrasil (cabeçalho de todas as páginas), com a meta tag padrão `niteroi-icarai` e um script que ajusta a meta conforme a página (bairro da ficha, bairro do título nas páginas `/bairro/`). O campo do ImobiBrasil apaga barras invertidas: o script instalado lá não pode usar `\`.
 Páginas de imóvel individual — a v4.3 já cuida
 Páginas de listagem — a v4.3 já cuida
 Páginas de notícia — a v4.3 já cuida
@@ -59,7 +60,7 @@ quinto-geo-local/
 ├── tag-imobibrasil.html             Tag HTML pronta para colar no CMS
 ├── README.md                        Este arquivo
 ├── SECURITY.md                      Política de segurança
-├── .gitignore                       Previne commits acidentais
+├── coordenadas.json                 Coordenadas dos imóveis (commit automático do motor_geo_v14; lido pela tag do mapa no GTM)
 └── data/
     ├── niteroi/                     19 arquivos (18 bairros + Jardim Icaraí)
     │   ├── badu.json
@@ -81,32 +82,16 @@ quinto-geo-local/
     │   ├── santa-rosa.json
     │   ├── sao-domingos.json
     │   └── sao-francisco.json
-    ├── sao-goncalo/                 (vazio — pronto para popular)
-    ├── marica/                      (vazio — pronto para popular)
-    └── rio-de-janeiro/              (vazio — pronto para popular)
 ```
+As pastas de São Gonçalo, Maricá e Rio de Janeiro ainda não existem: serão criadas quando houver o primeiro JSON de bairro dessas cidades.
 ---
-Deploy no GitHub Pages + jsDelivr (atualização da v1.1.0 → v1.2.0)
-Se você já tem o repositório `quinto-geo-local` no GitHub com a v1.1.0:
-Passo 1 — Subir os arquivos novos/atualizados
-Vá em `github.com/corretorquinto/quinto-geo-local`
-Clique em Add file → Upload files
-Arraste TODA a estrutura nova (`manifest.json`, `core.js`, `README.md`, `tag-imobibrasil.html`, `SECURITY.md`, `.gitignore`, pasta `data/`)
-Mensagem de commit: `v1.2.0 — 12 novos bairros + detecção ImobiBrasil`
+Como atualizar (GitHub Pages)
+O site carrega os arquivos direto do GitHub Pages: `https://corretorquinto.github.io/quinto-geo-local/`.
+Abra o arquivo em `github.com/corretorquinto/quinto-geo-local`
+Clique no lápis (Edit this file), cole o conteúdo novo
 Commit changes
-Passo 2 — Criar a release v1.2.0
-Releases → Create a new release
-Choose a tag → digite `v1.2.0` → Create new tag: v1.2.0 on publish
-Título: `v1.2.0 — 12 novos bairros + detecção ImobiBrasil`
-Publish release
-Passo 3 — Validar URLs do jsDelivr
-```
-https://cdn.jsdelivr.net/gh/corretorquinto/quinto-geo-local@v1.2.0/manifest.json
-https://cdn.jsdelivr.net/gh/corretorquinto/quinto-geo-local@v1.2.0/core.js
-https://cdn.jsdelivr.net/gh/corretorquinto/quinto-geo-local@v1.2.0/data/niteroi/icarai.json
-```
-Passo 4 — Atualizar a tag instalada no site
-Se a tag v1.1.0 já estiver instalada em algum lugar, atualize a versão para `@v1.2.0`.
+O GitHub Pages publica em alguns minutos (o navegador pode guardar a versão anterior por até ~10 minutos)
+O `coordenadas.json` é atualizado sozinho pelo motor_geo_v14 a cada imóvel geocodificado; os demais arquivos são atualizados à mão.
 ---
 Como funciona a detecção automática
 A engine v1.2.0 reconhece páginas de bairro automaticamente nestes padrões:
@@ -162,7 +147,7 @@ Tamanho do `core.js`	~18 KB (não-minificado)
 Tamanho médio de um JSON de bairro	~2-3 KB
 JSONs carregados por página	1 manifest + 1 bairro principal + até 3 limítrofes
 Total transferido por página de bairro	~12 KB
-Cache do jsDelivr	7 dias por padrão
+Cache do GitHub Pages	~10 minutos
 Constante independente de você ter 8 ou 200 bairros.
 ---
 Como adicionar um novo bairro
@@ -170,18 +155,18 @@ Crie um novo arquivo JSON em `data/niteroi/[slug].json` (siga o template dos exi
 Adicione o ID em `manifest.json` na lista `neighborhoods`
 Adicione o slug no array `SLUG_MAP` do `core.js` (no topo do arquivo)
 ⚠️ Coloque slugs longos antes dos curtos (longest-match)
-Crie nova tag de versão (v1.3.0, etc.)
+Faça o commit; o GitHub Pages publica em alguns minutos
 ---
 Versionamento
 v1.1.0 — Primeira versão pública (7 bairros + sub-bairro)
 v1.2.0 (atual) — 12 novos bairros + detecção URLs ImobiBrasil. Cobertura total: 19 entidades
+nov/2026: `@id` da imobiliária passou de `#organization` para `#imobiliaria`; removida a propriedade inválida `knownByOrganization` do Place
 v1.3.0 (futuro) — Refinamentos e mais sub-bairros se houver demanda
 v2.0.0 (futuro) — Multi-cidade ativa (São Gonçalo, Maricá, Rio de Janeiro)
 ---
 Segurança
 Este repositório segue boas práticas documentadas em SECURITY.md:
 2FA habilitado na conta GitHub
-Tags de versão imutáveis no jsDelivr
 Auditoria pré-commit
 Zero dependências externas em runtime
 ---
